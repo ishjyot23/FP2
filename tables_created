@@ -1,0 +1,26 @@
+create table USER(
+email TEXT PRIMARY KEY,
+name TEXT,
+phone TEXT,
+role TEXT,
+password TEXT NOT NULL,
+subjects TEXT,
+availability TEXT,//volunteer
+class_level TEXT,//volunteer
+center_name TEXT, //center
+students_center INTEGER, //center
+regNo TEXT, //center
+);
+
+create table SESSION(
+center_email TEXT PRIMARY KEY,
+subjects TEXT,
+class_level TEXT,
+date_session TEXT,
+status TEXT DEFAULT 'available',
+FOREIGN KEY center_email REFERENCES USER(email));
+
+create table VERIFICATION(
+center_email TEXT PRIMARY KEY,
+status BOOLEAN DEFAULT FALSE,
+FOREIGN KEY (center_email) REFERENCES USER(email));

@@ -1,0 +1,467 @@
+.sign-up-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .sign-up-page .overlap-group-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1272px;
+    height: 801px;
+  }
+  
+  .sign-up-page .overlap-group {
+    position: relative;
+    width: 1273px;
+    height: 801px;
+    top: -20px;
+    background-color: #f1f3f4;
+  }
+  
+  .sign-up-page .overlap {
+    position: absolute;
+    width: 440px;
+    height: 657px;
+    top: 48px;
+    left: 416px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow:
+      0px 0px 0px transparent, 0px 0px 0px transparent, 0px 0px 0px transparent, 0px 0px 0px transparent, 0px 8px 16px #0000001a;
+  }
+  
+  .sign-up-page .text-wrapper {
+    position: absolute;
+    top: 30px;
+    left: 113px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #333333;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 36px;
+    white-space: nowrap;
+  }
+  
+  .sign-up-page .div {
+    position: absolute;
+    top: 75px;
+    left: 102px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .sign-up-page .text-wrapper-2 {
+    position: absolute;
+    top: 131px;
+    left: 32px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #333333;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .sign-up-page .div-wrapper {
+    position: absolute;
+    width: 376px;
+    height: 41px;
+    top: 160px;
+    left: 32px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #e5e7eb;
+  }
+  
+  .sign-up-page .text-wrapper-3 {
+    position: absolute;
+    height: 19px;
+    top: 6px;
+    left: 15px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #999999;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .sign-up-page .text-wrapper-4 {
+    position: absolute;
+    top: 224px;
+    left: 32px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #333333;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .sign-up-page .overlap-2 {
+    position: absolute;
+    width: 376px;
+    height: 41px;
+    top: 253px;
+    left: 32px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #e5e7eb;
+  }
+  
+  .sign-up-page .text-wrapper-5 {
+    position: absolute;
+    top: 317px;
+    left: 32px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #333333;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .sign-up-page .overlap-3 {
+    position: absolute;
+    width: 376px;
+    height: 41px;
+    top: 347px;
+    left: 32px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #e5e7eb;
+  }
+  
+  .sign-up-page .text-wrapper-6 {
+    position: absolute;
+    top: 411px;
+    left: 32px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #333333;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .sign-up-page .overlap-4 {
+    position: absolute;
+    width: 376px;
+    height: 41px;
+    top: 440px;
+    left: 32px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #e5e7eb;
+  }
+  
+  .sign-up-page .rectangle {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 508px;
+    left: 31px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    border: 1px solid;
+    border-color: #666666;
+  }
+  
+  .sign-up-page .text-wrapper-7 {
+    position: absolute;
+    top: 504px;
+    left: 53px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #666666;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .sign-up-page .overlap-5 {
+    position: absolute;
+    width: 169px;
+    height: 20px;
+    top: 504px;
+    left: 145px;
+  }
+  
+  .sign-up-page .text-wrapper-8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #333333;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .sign-up-page .text-wrapper-9 {
+    position: absolute;
+    top: 0;
+    left: 144px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #666666;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .sign-up-page .overlap-6 {
+    position: absolute;
+    width: 376px;
+    height: 48px;
+    top: 577px;
+    left: 32px;
+    border-radius: 8px;
+  }
+  
+  .sign-up-page .rectangle-2 {
+    position: absolute;
+    width: 376px;
+    height: 48px;
+    top: 0;
+    left: 0;
+    background-color: #1a73e8;
+    border-radius: 8px;
+    box-shadow:
+      0px 0px 0px transparent, 0px 0px 0px transparent, 0px 0px 0px transparent, 0px 0px 0px transparent, 0px 2px 4px #0000001a;
+  }
+  
+  .sign-up-page .text-wrapper-10 {
+    top: 11px;
+    left: 159px;
+    color: #ffffff;
+    position: absolute;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .sign-up-page .text-wrapper-11 {
+    position: absolute;
+    top: 728px;
+    left: 511px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .sign-up-page .text-wrapper-12 {
+    top: 728px;
+    left: 710px;
+    color: #333333;
+    position: absolute;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  /* Original CSS code here */
+  
+  .sign-up-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .sign-up-page .overlap-group-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1272px;
+    height: 801px;
+  }
+  
+  .sign-up-page .overlap-group {
+    position: relative;
+    width: 100%;
+    height: 801px;
+    background-color: #f1f3f4;
+  }
+  
+  .sign-up-page .overlap {
+    position: absolute;
+    width: 440px;
+    height: 657px;
+    top: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .sign-up-page h1.text-wrapper {
+    font-family: "Inter-Bold", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #333333;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .sign-up-page .div {
+    font-family: "Inter-Regular", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .sign-up-page .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .sign-up-page label {
+    display: block;
+    font-family: "Inter-Medium", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .sign-up-page input[type="text"],
+  .sign-up-page input[type="email"],
+  .sign-up-page input[type="password"] {
+    width: 100%;
+    height: 41px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    padding: 0 15px;
+    font-family: "Inter-Regular", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+  }
+  
+  .sign-up-page input::placeholder {
+    color: #999999;
+  }
+  
+  .sign-up-page .terms-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .sign-up-page input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    margin-right: 7px;
+  }
+  
+  .sign-up-page .text-wrapper-7,
+  .sign-up-page .text-wrapper-9 {
+    font-family: "Inter-Regular", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #666666;
+    font-size: 14px;
+  }
+  
+  .sign-up-page .text-wrapper-8 {
+    font-family: "Inter-Medium", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #333333;
+    font-size: 14px;
+    text-decoration: underline;
+  }
+  
+  .sign-up-page button {
+    width: 100%;
+    height: 48px;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: "Inter-Medium", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sign-up-page button:hover {
+    background-color: #1557b0;
+  }
+  
+  .sign-up-page .text-wrapper-11 {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Inter-Regular", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #666666;
+    font-size: 16px;
+  }
+  
+  .sign-up-page .text-wrapper-12 {
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% + 100px);
+    font-family: "Inter-Medium", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #333333;
+    font-size: 16px;
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .sign-up-page .overlap {
+      width: 90%;
+      max-width: 440px;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .sign-up-page .text-wrapper-11,
+    .sign-up-page .text-wrapper-12 {
+      position: static;
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      transform: none;
+    }
+  }
+  

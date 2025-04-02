@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GyanMarg - Empowering Young Minds</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="server.js"></script>
+  </head>
+  <body>
+    <div class="landing-page">
+      <div class="content">
+        <header class="navbar">
+          <img class="logo" src="logo.png" alt="GyanMarg Logo" />
+          <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#volunteer">Volunteer</a></li>
+              <li><a href="#donate">Donate</a></li>
+              <li><a href="#resources">Resources</a></li>
+            </ul>
+          </nav>
+          <div class="auth-buttons">
+            <button class="sign-in">Sign In</button>
+            <button class="sign-up">Sign Up</button>
+          </div>
+        </header>
+        <main>
+          <section class="hero">
+            <h1>Empower Young Minds with GyanMarg</h1>
+            <p>Join us in making education accessible for all</p>
+            <div class="cta-buttons">
+              <button class="get-started">Get Started</button>
+              <button class="learn-more">Learn More</button>
+            </div>
+          </section>
+          <section class="how-it-works">
+            <h2>How It Works</h2>
+            <div class="features">
+              <article class="feature volunteer">
+                <img src="img/image-2.png" alt="Volunteer Icon" />
+                <h3>Volunteer</h3>
+                <p>Share your knowledge and make a difference in students' lives</p>
+              </article>
+              <article class="feature donate">
+                <img src="img/image-4.png" alt="Donate Icon" />
+                <h3>Donate</h3>
+                <p>Support our mission with resources and infrastructure</p>
+              </article>
+              <article class="feature resources">
+                <div class="icon-wrapper">
+                  <img src="img/image.png" alt="Resources Icon" />
+                </div>
+                <h3>Access Resources</h3>
+                <p>Utilize our comprehensive educational materials</p>
+              </article>
+            </div>
+          </section>
+          <section class="impact">
+            <h2>Our Impact</h2>
+            <div class="stats-container">
+              <div class="stats-chart">
+                <div class="stat-bar volunteers"></div>
+              </div>
+              <div class="stat-cards">
+                <article class="stat-card">
+                  <h3 id="volunteer-count">0</h3>
+                  <p>Active Volunteers</p>
+                </article>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer>
+          <div class="footer-content">
+            <div class="quick-links">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#privacy">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="social-media">
+              <h4>Follow Us</h4>
+              <div class="social-icons">
+                <a href="#" aria-label="Facebook"><div class="icon facebook"></div></a>
+                <a href="#" aria-label="Twitter"><div class="icon twitter"></div></a>
+                <a href="#" aria-label="Instagram"><div class="icon instagram"></div></a>
+              </div>
+            </div>
+            <div class="newsletter">
+              <h4>Newsletter</h4>
+              <form>
+                <input type="email" placeholder="Enter your email" aria-label="Email for newsletter" />
+                <button type="submit" aria-label="Subscribe to newsletter"></button>
+              </form>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script>
+      async function fetchVolunteerCount() {
+        try {
+          const response = await fetch("http://localhost:3000/getVolunteerCount");
+          const data = await response.json();
+          document.getElementById("volunteer-count").textContent = data.count;
+        } catch (error) {
+          console.error("Error fetching volunteer count:", error);
+        }
+      }
+      fetchVolunteerCount();
+    </script>
+  </body>
+</html>
